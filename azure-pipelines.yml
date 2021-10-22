@@ -32,7 +32,7 @@ steps:
 
 - powershell: |
    Write-Host "Robot Framework tests"
-   robot -x 'outputxunit.xml' -t 'Your Test' '$(Build.SourcesDirectory)\imagesDetect.robot\tests\.'
+   robot -x 'outputxunit.xml' -t 'Your Test' '$(Build.SourcesDirectory)\imagesDetect\tests\.'
   failOnStderr: true
   displayName: 'Run Robot Framework Tests'
   continueOnError: true

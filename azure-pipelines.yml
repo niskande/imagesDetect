@@ -27,7 +27,7 @@ steps:
     versionSpec: '$(python.version)'
     architecture: 'x64'
 
-- script: pip install robotframework robotframework-pabot robotframework-appiumlibrary appium
+- script: pip install robotframework robotframework-pabot robotframework-appiumlibrary 
   displayName: 'Install dependencies'
 
 - powershell: |
